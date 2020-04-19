@@ -4,8 +4,12 @@ git clean -xfd && git submodule foreach --recursive git clean -xfd
 git reset --hard && git submodule foreach --recursive git reset --hard
 git submodule update --init --recursive
 
-Checkout all develop:
+Checkout branches:
 git checkout develop && git submodule foreach --recursive git checkout develop
+git checkout master && git submodule foreach --recursive git checkout master
+
+Merge:
+git merge develop && git submodule foreach --recursive git merge develop
 
 git status && git submodule foreach --recursive git status
 
