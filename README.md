@@ -8,4 +8,4 @@ HTTPS: `git clone --recursive https://github.com/AximoGames/AximoGames.git`
 
 or
 
-SSH: `git clone --recursive git@github.com:AximoGames/AxEngine.git`
+SSH: `git clone --recursive git@github.com:AximoGames/AximoGames.git`
