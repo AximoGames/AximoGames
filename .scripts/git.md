@@ -13,4 +13,4 @@ git branch && git submodule foreach --recursive git branch
 
 git add . && git submodule foreach --recursive git add .
 
-export COMMIT_MSG='' && git submodule foreach --recursive git add . && git submodule foreach --recursive (git commit -m $COMMIT_MSG || true) && git submodule foreach --recursive git add . && git submodule foreach --recursive (git commit -m $COMMIT_MSG || true) && git add . && (git commit -m $COMMIT_MSG || true)
+export COMMIT_MSG='' && git submodule foreach --recursive git add . && git submodule foreach --recursive '(git commit -m $COMMIT_MSG || true)' && git submodule foreach --recursive git add . && git submodule foreach --recursive '(git commit -m $COMMIT_MSG || true)' && git add . && git commit -m $COMMIT_MSG
