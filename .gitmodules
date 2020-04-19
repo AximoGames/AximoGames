@@ -1,9 +1,12 @@
 [submodule "AxEngine"]
 	path = AxEngine
-	url = git@github.com:AximoGames/AxEngine.git
+	url = https://github.com/AximoGames/AxEngine.git
+	pushurl = git@github.com:AximoGames/AxEngine.git
 [submodule "AxMarbles"]
 	path = AxMarbles
-	url = git@github.com:AximoGames/AxMarbles.git
+	url = https://github.com/AximoGames/AxMarbles.git
+	pushurl = git@github.com:AximoGames/AxMarbles.git
 [submodule "Experiments"]
 	path = Experiments
-	url = git@github.com:AximoGames/Experiments
+	url = https://github.com/AximoGames/Experiments.git
+	pushurl = git@github.com:AximoGames/Experiments.git
