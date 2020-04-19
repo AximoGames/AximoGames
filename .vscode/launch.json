@@ -15,5 +15,27 @@
             "stopAtEntry": false,
             "console": "integratedTerminal"
         },
+        {
+            "name": "Marbles",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build",
+            "program": "${workspaceFolder}/AxMarbles/Marbles/bin/Debug/netcoreapp3.1/AxMarbles.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}",
+            "stopAtEntry": false,
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "ProcTest",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build",
+            "program": "${workspaceFolder}/Experiments/ProcTest/bin/Debug/netcoreapp3.1/ProcTest.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}",
+            "stopAtEntry": false,
+            "console": "integratedTerminal"
+        },
     ]
 }
