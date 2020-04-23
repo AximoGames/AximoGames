@@ -23,6 +23,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Experiments", "Experiments"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProcTest", "Experiments\ProcTest\ProcTest.csproj", "{31B9CE86-6922-477B-9D0A-8A290DD50AE7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlayGround1", "Experiments\PlayGround1\PlayGround1.csproj", "{31B1AF66-15D6-4301-BDBD-45166F857E60}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -129,6 +131,18 @@ Global
 		{31B9CE86-6922-477B-9D0A-8A290DD50AE7}.Release|x64.Build.0 = Release|Any CPU
 		{31B9CE86-6922-477B-9D0A-8A290DD50AE7}.Release|x86.ActiveCfg = Release|Any CPU
 		{31B9CE86-6922-477B-9D0A-8A290DD50AE7}.Release|x86.Build.0 = Release|Any CPU
+		{31B1AF66-15D6-4301-BDBD-45166F857E60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31B1AF66-15D6-4301-BDBD-45166F857E60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31B1AF66-15D6-4301-BDBD-45166F857E60}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{31B1AF66-15D6-4301-BDBD-45166F857E60}.Debug|x64.Build.0 = Debug|Any CPU
+		{31B1AF66-15D6-4301-BDBD-45166F857E60}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{31B1AF66-15D6-4301-BDBD-45166F857E60}.Debug|x86.Build.0 = Debug|Any CPU
+		{31B1AF66-15D6-4301-BDBD-45166F857E60}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31B1AF66-15D6-4301-BDBD-45166F857E60}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31B1AF66-15D6-4301-BDBD-45166F857E60}.Release|x64.ActiveCfg = Release|Any CPU
+		{31B1AF66-15D6-4301-BDBD-45166F857E60}.Release|x64.Build.0 = Release|Any CPU
+		{31B1AF66-15D6-4301-BDBD-45166F857E60}.Release|x86.ActiveCfg = Release|Any CPU
+		{31B1AF66-15D6-4301-BDBD-45166F857E60}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -139,5 +153,6 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{3232E9B1-9443-45C0-901B-52C6B8A73CF7} = {7205F0AF-0DCF-4CFD-A4BB-FB1F73E0D762}
 		{31B9CE86-6922-477B-9D0A-8A290DD50AE7} = {4172C262-FBAF-4FD9-8E15-1D38684A45F9}
+		{31B1AF66-15D6-4301-BDBD-45166F857E60} = {4172C262-FBAF-4FD9-8E15-1D38684A45F9}
 	EndGlobalSection
 EndGlobal
