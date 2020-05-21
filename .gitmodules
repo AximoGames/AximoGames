@@ -10,3 +10,7 @@
 	path = Experiments
 	url = https://github.com/AximoGames/Experiments.git
 	pushurl = git@github.com:AximoGames/Experiments.git
+[submodule "AximoGames-pages"]
+	path = AximoGames-pages
+	url = https://github.com/AximoGames/AximoGames-pages.git
+	pushurl = git@github.com:AximoGames/AximoGames-pages.git
