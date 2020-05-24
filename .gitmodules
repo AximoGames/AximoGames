@@ -14,3 +14,7 @@
 	path = AximoGames-pages
 	url = https://github.com/AximoGames/AximoGames-pages.git
 	pushurl = git@github.com:AximoGames/AximoGames-pages.git
+[submodule "Documentation"]
+	path = Documentation
+	url = https://github.com/AximoGames/Aximo.Documentation.git
+	pushurl = git@github.com:AximoGames/Aximo.Documentation.git
