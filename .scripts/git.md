@@ -18,6 +18,9 @@ export COMMIT_MSG='' && git submodule foreach --recursive git add . && git submo
 ### Push
 git push && git submodule foreach --recursive git push
 
+### Pull
+git pull && git submodule foreach --recursive git pull
+
 ### Resetting
 git clean -xfd && git submodule foreach --recursive git clean -xfd
 git reset --hard && git submodule foreach --recursive git reset --hard
