@@ -3,7 +3,7 @@
 	url = https://github.com/AximoGames/AxEngine.git
 	pushurl = git@github.com:AximoGames/AxEngine.git
 [submodule "AxMarbles"]
-	path = AxMarbles
+	path = Games/Marbles
 	url = https://github.com/AximoGames/AxMarbles.git
 	pushurl = git@github.com:AximoGames/AxMarbles.git
 [submodule "Experiments"]
@@ -18,3 +18,7 @@
 	path = Documentation
 	url = https://github.com/AximoGames/Aximo.Documentation.git
 	pushurl = git@github.com:AximoGames/Aximo.Documentation.git
+[submodule "Games/Pong"]
+	path = Games/Pong
+	url = https://github.com/AximoGames/pong_axengine.git
+	pushurl = git@github.com:AximoGames/pong_axengine.git
