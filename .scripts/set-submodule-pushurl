@@ -7,3 +7,5 @@ git remote set-url origin git@github.com:AximoGames/AximoGames.git
 
 git submodule foreach -q --recursive \
    'git config -f $toplevel/.gitmodules submodule.$name.pushurl | xargs -r git remote set-url --push origin'
+
+# pong: git remote add upstream git@github.com:kbitGit/pong_axengine.git
